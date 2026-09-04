@@ -1,0 +1,29 @@
+INSERT INTO Enrolments
+(
+    ParticipantID,
+    CategoryID,
+    Status
+)
+VALUES
+(
+    3,
+    1,
+    'Confirmed'
+),
+(
+    3,
+    5,
+    'Confirmed'
+),
+(
+    4,
+    2,
+    'Confirmed'
+),
+(
+    4,
+    6,
+    'Pending'
+);
+
+GO
